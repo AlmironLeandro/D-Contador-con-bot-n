@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.navbar-backgroud
+{
+  background: #ee9ca7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+
+}
+.nav-link
+{
+  color: aliceblue;
+  
+ 
+}
+
+.imagenCarro
+{
+  /* Si nos excedemos de estos (heigth)px el contenedor se hace mas alto, entonces no hay una linea 
+  horizontal derecha, deberiamos de aumentar el heigth contenedor .nav-item, pero no me deja */
+  height:35px;
+  width: 35px;
+  
+
+}
+
+.divCarro{
+  display: inline-block;
+}
+
+.btn.btn-dark
+{
+  margin: 1%;
+  width: 98%;
+}
