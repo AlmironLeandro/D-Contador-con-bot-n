@@ -30,9 +30,20 @@
 .divCarro{
   display: inline-block;
 }
-
+.btn.btn-light{
+  width: 35px;
+  height:35px;
+}
 .btn.btn-dark
 {
   margin: 1%;
   width: 98%;
 }
+
+.tst
+{
+  float: inline-start;
+  margin: 1%;
+  margin-left: 2%;
+}
+
