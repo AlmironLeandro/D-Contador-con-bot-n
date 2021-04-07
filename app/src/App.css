@@ -7,14 +7,10 @@
   background: #ee9ca7;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
-
 }
 .nav-link
 {
   color: aliceblue;
-  
- 
 }
 
 .imagenCarro
@@ -29,8 +25,34 @@
 
 .divCarro{
   display: inline-block;
+  
 }
-.btn.btn-light{
+#buttonP{
+  color: green;
+  border-radius: 2em;
+  
+}
+
+#buttonN{
+  color: red;
+  border-radius: 2em;
+  
+}
+
+#buttonP:hover{
+  color: white;
+  background-color: green;
+  
+}
+
+#buttonN:hover{
+  color: white;
+  background-color: red;
+  
+  
+}
+.btn.btn-light
+{
   width: 35px;
   height:35px;
 }
@@ -40,10 +62,10 @@
   width: 98%;
 }
 
-.tst
+.container
 {
-  float: inline-start;
-  margin: 1%;
-  margin-left: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 }
-
